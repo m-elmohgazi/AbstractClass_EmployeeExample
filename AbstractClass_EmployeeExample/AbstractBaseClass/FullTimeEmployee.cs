@@ -8,6 +8,10 @@ namespace AbstractClass_EmployeeExample.AbstractBaseClass
 {
     public class FullTimeEmployee : BaseEmployee
     {
+        public FullTimeEmployee()
+        {
+            
+        }
         public int AnnualSalary { get; set; }
 
         public override int GetMonthlySalary()

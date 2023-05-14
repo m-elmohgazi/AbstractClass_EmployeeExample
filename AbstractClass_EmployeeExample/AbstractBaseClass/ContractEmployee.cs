@@ -8,6 +8,10 @@ namespace AbstractClass_EmployeeExample.AbstractBaseClass
 {
     public class ContractEmployee : BaseEmployee
     {
+        public ContractEmployee()
+        {
+            
+        }
         public int TotalHoursWorked { get; set; }
         public int HourlyPay { get; set; }
 
